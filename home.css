@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.booklogo {
+    display:flex;
+    justify-content: left;
+    display: flex;
+     align-items: center;
+    justify-content: flex-start; 
+    margin-top: 0px;
+}
+.logonew {
+    
+    font-size:80px ;
+    font-style:italic;
+    font-weight: bold;
+}
+.searchbar {
+    float: left;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    
+    
+  }
+
+header {
+    
+    background-color: #7f4172;
+    color: white;
+    padding: 1em 0; 
+    text-align:center;
+    height:20px;
+    margin: 0px;
+    height:fit-content;
+    justify-content: inline;
+    align-items: center;
+}
+h1 {
+    color: rgb(77, 59, 70);
+   
+}
+
+marquee{
+    background-color:rgb(34, 158, 34);
+    color: white;
+    padding-top: 7px;
+ font-weight: bold;
+ /* font-size: larger; */
+ height: 25px;
+ justify-content:center;
+ 
+ white-space: nowrap;
+
+}
+header {
+    background-color: rgb(251, 231, 214);
+    color:rgb(80, 32, 32);
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-left: 2rem;
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.3em;
+}
+.search-bar {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    height: 40px;
+    padding-right: 420px;
+  }
+  input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #9a7449;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: #50c429;
+  }
+
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+   
+}
+ 
+
+header p {
+    margin: 2px 0 0;
+}
+
+nav {
+    
+    height: fit-content;
+    background-color:rgb(97, 59, 59);
+    display: flex;
+    justify-content :right;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+nav a {
+    color: rgb(228, 225, 225);
+    text-decoration: none;
+    margin: 0px 30px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+
+footer {
+    background-color:  #613a34;
+    color: white;
+    text-align: center;
+    padding: 105px 0;
+    margin-top: 0px;
+}
+
+footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x:scroll ; 
+}
+
+.full-screen {
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    object-fit: cover; 
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    animation: slide-animation 12s infinite;
+}
+
+
+.photo-quote {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+}
+
+
+@keyframes slide-animation {
+    0% { opacity: 0; }
+    5% { opacity: 1; }
+    33% { opacity: 1; }
+    38% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+.slide:nth-child(1) {
+    animation-delay: 0s;
+}
+.slide:nth-child(2) {
+    animation-delay: 4s;
+}
+.slide:nth-child(3) {
+    animation-delay: 8s;
+}
+
+.loginpage a{
+    justify-content: right;
+    color: rgb(14, 12, 13);
+    
+        width: 20px;
+        height: 80px;
+        background: #ff0000;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: .3s;
+       
+    
+    }
+    .login-btn{
+        justify-content: center;
+        background-color: transparent;
+        
+        color: rgb(255, 255, 255);
+        width: fit-content;
+        
+        cursor: pointer;
+        transition: .3s;
+    }
+    .login-btn a {
+        color: #ffffff;
+    }
+    
+
+
